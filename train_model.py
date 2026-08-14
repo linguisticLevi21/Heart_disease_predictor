@@ -1,5 +1,9 @@
 """
 train_model.py
+# UTF-8 encoding fix for Windows terminals
+import os as _os
+_os.environ.setdefault("PYTHONIOENCODING", "utf-8")
+train_model.py
 ==============
 Entry-point script for the complete ML training pipeline.
 
